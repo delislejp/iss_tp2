@@ -1,0 +1,6 @@
+Lancer les conteneurs:
+	docker-compose up --build -d
+Voir les logs
+	docker-compose logs
+Arrêter et effacer les images:
+	docker-compose down --rmi local
